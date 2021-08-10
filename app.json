@@ -1,0 +1,27 @@
+{
+  "id": "e45c8891-f58d-4fdf-8484-06861be5aab0",
+  "name": "Test_HttpWS",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "mytest",
+  "description": "test",
+  "privacyStatement": "https://www.im-projects.com/inicio/",
+  "EULA": "https://www.im-projects.com/inicio/",
+  "help": "https://www.im-projects.com/inicio/",
+  "url": "https://www.im-projects.com/inicio/",
+  "logo": ".vscode/src/logo/IM-PROJECTS.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "features": ["TranslationFile"],
+  "idRanges": [
+    {
+      "from": 50350,
+      "to": 50399
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Test_HttpWS.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Test_HttpWS">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 4150597061 - Field 1768934958 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Environment Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table WS Setup - Field Environment Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4150597061 - Field 1379843859 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Http Requets Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table WS Setup - Field Http Request Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4150597061 - Field 588697140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Method Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table WS Setup - Field Method Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4150597061 - Field 2575460289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table WS Setup - Field Password - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4150597061 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table WS Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4150597061 - Field 588430355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tenant Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table WS Setup - Field Tenant Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4150597061 - Field 129688762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table WS Setup - Field User Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4150597061 - Field 3769306150 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Web Service Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table WS Setup - Field Web Service Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4150597061 - Control 2575460289 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the WS user password</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WS Setup - Control Password - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4150597061 - Control 129688762 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the WS User Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WS Setup - Control User Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4150597061 - Control 1768934958 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Environment Name field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WS Setup - Control Environment Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4150597061 - Control 1379843859 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Http Requets Type field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WS Setup - Control Http Request Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4150597061 - Control 588697140 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Method Name field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WS Setup - Control Method Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4150597061 - Control 588430355 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Tenant Id field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WS Setup - Control Tenant Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4150597061 - Control 3769306150 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Web Service Name field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WS Setup - Control Web Service Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4150597061 - Action 465333730 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Call WS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WS Setup - Action CallWS - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4150597061 - Action 465333730 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Call WS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WS Setup - Action CallWS - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

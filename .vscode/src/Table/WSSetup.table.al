@@ -44,6 +44,11 @@ table 50350 "WS Setup"
             Caption = 'Method Name';
             DataClassification = CustomerContent;
         }
+        field(60; "Company Name"; Text[50])
+        {
+            Caption = 'Company Name';
+            DataClassification = CustomerContent;
+        }
     }
 
     keys

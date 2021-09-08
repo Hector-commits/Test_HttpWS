@@ -50,6 +50,11 @@ page 50350 "WS Setup"
                     ToolTip = 'Specifies the value of the Method Name field';
                     ApplicationArea = All;
                 }
+                field("Company Name"; "Company Name")
+                {
+                    ToolTip = 'Specifies the value of the GUID - Company Name we are calling at.';
+                    ApplicationArea = All;
+                }
             }
         }
     }
@@ -63,16 +68,27 @@ page 50350 "WS Setup"
                 Caption = 'Call WS';
                 ApplicationArea = All;
                 ToolTip = 'Call WS';
+                Image = Web;
 
                 trigger OnAction()
                 var
                     WSCaller: Codeunit "WS Caller";
                 begin
-
-                    //username := 'ADMIN';
-                    //pass := 'x1SSRxemyxMwEk98rpt/82Z+RGvtj/E91DxfI4ojmVE=';
-
                     Message(WSCaller.CallService(mountUrl(), Rec."Http Request Type", '', Rec."User Name", Rec.Password));
+                end;
+            }
+            action(GetCompanies)
+            {
+                Caption = 'Get Companies';
+                ApplicationArea = All;
+                ToolTip = 'Get Companies';
+                Image = Company;
+
+                trigger OnAction()
+                var
+                    WSCaller: Codeunit "WS Caller";
+                begin
+                    Message(WSCaller.CallService(getCompaniesUrl(), Rec."Http Request Type", '', Rec."User Name", Rec.Password));
                 end;
             }
         }
@@ -81,6 +97,21 @@ page 50350 "WS Setup"
     local procedure mountUrl() url: Text
 
     begin
-        url := 'https://api.businesscentral.dynamics.com/v2.0/' + Rec."Tenant Id" + '/' + Rec."Environment Name" + '/' + 'ODataV4' + '/' + Rec."Web Service Name" + '_' + Rec."Method Name" + '?company={2c65e2a3-a3a6-eb11-9b52-000d3abeb8ff}';
+        url := 'https://api.businesscentral.dynamics.com/v2.0/'
+                + Rec."Tenant Id"
+                + '/' + Rec."Environment Name"
+                + '/' + 'ODataV4'
+                + '/' + Rec."Web Service Name"
+                + '_' + Rec."Method Name"
+                + '?company={' + Rec."Company Name" + '}';
+    end;
+
+    local procedure getCompaniesUrl() url: Text
+    begin
+        url := 'https://api.businesscentral.dynamics.com/v2.0/'
+            + Rec."Tenant Id"
+            + '/' + Rec."Environment Name"
+            + '/' + 'api'
+            + '/' + 'microsoft/automation/v1.0/companies'
     end;
 }
